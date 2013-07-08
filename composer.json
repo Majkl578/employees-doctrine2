@@ -1,0 +1,22 @@
+{
+	"description": "Benchmark for Doctrine 2 + Employees Sample Database",
+	"authors": [
+		{
+			"name": "Michael Moravec"
+		}
+	],
+	"license": "MIT",
+	"config": {
+		"vendor-dir": "vendor"
+	},
+	"require": {
+		"php": ">= 5.3.1",
+		"nette/nette": "@dev",
+		"doctrine/orm": "~2.3.2"
+	},
+	"autoload": {
+		"psr-0": {
+			"Benchmark": "."
+		}
+	}
+}
